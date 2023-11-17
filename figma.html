@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs l.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="figma1.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="box0">
+   <marquee direction="right" > <h1 class="animate__animated animate__bounce" >Welcome to Our Cafe!!</h1></marquee>
+ </div>
+<!--First div-->
+
+    <div class="container0">
+        <img src="snacky.png" alt="">
+    <div class="icons1">
+      <i onclick="openPopup()" class="fa-solid fa-location-arrow"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-solid fa-magnifying-glass"></i> 
+      <i class="fa-regular fa-user"></i> 
+      </div> 
+      </div>
+
+      <!--Second Div-->
+
+      <div class="locator-box " id="location" > 
+        <div class="box-image">
+            <img src="snacky.png" alt="">
+          </div>
+          <div class="tabheading">
+            <h1>Please Select your order type</h1>
+          </div>
+
+                               <!-- Tab Starting -->
+          <div class="tab">
+            <button onclick="closePopup()" id="CloseButton">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <button class="tablinks" onclick="openCity(event, 'London')">Delivery</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">On-Location</button>
+          </div>
+        
+          
+          <div id="London" class="tabcontent">
+          <h1> Please select your location</h1> 
+          <div class="location_button">
+            <button id="loction-button" >Use Current Location</button>
+          </div>
+
+
+</div>
+
+
+
+          <div id="Paris" class="tabcontent">
+         <h1>Which outlet would you like to pick-up from?</h1>
+         <div class="location_button">
+          <button id="loction-button" >Use Current Location</button>
+        </div>
+
+</div>
+</div>
+
+
+
+<!--Third Div-->
+
+<div class="HR-1 owl-carousel owl-theme">
+  <div class="item">
+    <img src="slider1.jpg" alt="">
+   </div>
+  <div class="item">
+    <img src="slider1.jpg" alt="">
+    </div>
+  <div class="item">
+   <img src="slider1.jpg" alt="">
+   </div>
+
+</div>
+ <div class="picture-content">
+  <h1  class="animate__animated animate__fadeInLeft" >Popular Categories</h1>
+  <div  class="animated animatedFadeInUp fadeInUp" class="image-setting">
+<img src="b1.jpeg" alt="">
+<img src="p2.jpeg" alt="">
+<img src="b5.jpeg" alt="">
+<img src="d4.jpg" alt="">
+<img src="s4.jpeg" alt="">
+<img src="v3.jpeg" alt="">
+ </div>
+
+
+
+ <div class="navbar-container">
+	<ul>
+		<li class="nav-link active-link">
+			<a href="#">Hot Disher</a>
+			<div class="underline"></div>
+		</li>
+		<li class="nav-link">
+			<a href="#">Cold Dishes</a>
+			<div class="underline"></div>
+		</li>
+		<li class="nav-link">
+			<a href="#">Soup</a>
+			<div class="underline"></div>
+		</li>
+		<li class="nav-link">
+			<a href="#">Grill</a>
+			<div class="underline"></div>
+		</li>
+    <li class="nav-link">
+			<a href="#">Apetizer</a>
+			<div class="underline"></div>
+      </li>
+      <li class="nav-link">
+        <a href="#">Desert</a>
+        <div class="underline"></div>
+        </li>
+	</ul>
+</div>
+ 
+<section class="p-menu1">
+     
+  <nav id="navbar" class="navigation" role="navigation">
+    <input id="toggle1" type="checkbox" />
+    <label class="hamburger1" for="toggle1"> 
+      <div class="top"></div>
+      <div class="meat"></div>
+      <div class="bottom"></div>
+    </label>
+  
+    <nav class="menu1">
+     <a class="link1" href="#HotDish">Hot Dishes</a>
+     <a class="link1" href="#Colddish">Cold Dishes</a>
+     <a class="link1" href="#Soup">Soup</a>
+     <a class="link1" href="#Grill">Grill</a>
+     <a class="link1" href="#Apetizer">Apetizer</a>
+     <a class="link1" href="#Desert">Desert</a>
+    </nav>
+</nav>
+</section>
+
+<div class="card-area">
+<h1>Top Deals</h1>
+<div class="owl-carousel owl-theme">
+  <div class="item1">
+    <i class="fa-regular fa-heart"></i>
+<h5>30%OFF</h5>
+    <h2>Sale</h2>
+    <img src="image2.jpg" alt="">
+    <h1>Burger Deal</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. hello world how are you!!</p>
+    <div class="buttonbar">
+      <button id="pricearea" >700 PKR</button>
+      <button id="AddtoCartArea" >Add to Cart</button>
+    </div>
+    </div>
+  <div class="item1"><h4>2</h4></div>
+  <div class="item1"><h4>3</h4></div>
+  <div class="item1"><h4>4</h4></div>
+  <div class="item1"><h4>5</h4></div>
+  </div>
+  </div>
+
+
+<!-- 
+ <div class="box7">
+<img src="footer.png" alt="">
+</div>
+<div class="box7-content">
+<h1>Are You Ready To Order With The Best Deal?</h1>
+<button id="footer-btn">Proceed To Order</button>
+</div>   -->
+
+
+<!-- <div class="parentdiv">
+<div class="image1">
+<img src="image14.png" alt="">
+<h1>image1</h1> -->
+
+
+<!-- </div> -->
+<!-- <div class="subscribe-box">
+  <h1>Get 10% OFF Your Order Through Subscription</h1>
+<p>Enter Your Email and get a chance to win Prizes </p>
+<input type="text" placeholder="Enter Your Email">
+<button>Subscribe</button>
+</div> -->
+<!-- <div class="image2">
+  <img src="pizzahd.png">
+  <h1>image2</h1>
+</div> -->
+
+
+
+<!-- </div> -->
+
+
+
+
+
+<!-- <div class="box9">
+  <h1>hello</h1>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>      
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="figma11.js"></script>
+</body>
+</html>
